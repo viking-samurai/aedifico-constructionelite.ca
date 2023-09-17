@@ -1547,8 +1547,36 @@ mark, .mark {
     left: 0;
 }
 
+/* 11. a) quote_1
+--------------------------------------------------------------------------------*/
 
-/* 11. quote_02
+.quote-01 {
+    max-width: 300px;
+    background-color: #f0542c;
+    border: 5px solid #fff;
+    padding: 20px;
+    margin: 0;
+    box-shadow: 0 0 5px rgba(68, 68, 68, .6);
+}
+
+.quote-01 * {
+    color: #fff;
+}
+
+.quote-01__text {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+
+.quote-01__text:before {
+    content: '\F10D';
+    font-family: 'FontAwesome';
+    font-size: 25px;
+    display: block;
+}
+
+
+/* 11. b) quote_02
 --------------------------------------------------------------------------------*/
 
 .quote-02 {
@@ -1570,6 +1598,34 @@ mark, .mark {
 }
 
 .quote-02__text:before {
+    content: '\F10D';
+    font-family: 'FontAwesome';
+    font-size: 25px;
+    display: block;
+}
+
+/* 11. c) quote_03
+--------------------------------------------------------------------------------*/
+
+.quote-03 {
+    max-width: 300px;
+    background-color: #f0542c;
+    border: 5px solid #fff;
+    padding: 20px;
+    margin: 0;
+    box-shadow: 0 0 5px rgba(68, 68, 68, .6);
+}
+
+.quote-03 * {
+    color: #fff;
+}
+
+.quote-03__text {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+
+.quote-03__text:before {
     content: '\F10D';
     font-family: 'FontAwesome';
     font-size: 25px;
@@ -3624,6 +3680,13 @@ mark, .mark {
 
 .row-grap > [class*="col-"] {
     padding: 0;
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left:-15px;
+    margin-right:-15px
 }
 
 .pull-left {
