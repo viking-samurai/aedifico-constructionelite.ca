@@ -1608,7 +1608,8 @@ mark, .mark {
 --------------------------------------------------------------------------------*/
 
 .quote-03 {
-    max-width: 300px;
+    max-height: 280px;
+    max-width: 400px;
     background-color: #f0542c;
     border: 5px solid #fff;
     padding: 20px;
@@ -1626,6 +1627,35 @@ mark, .mark {
 }
 
 .quote-03__text:before {
+    content: '\F10D';
+    font-family: 'FontAwesome';
+    font-size: 25px;
+    display: block;
+}
+
+/* 11. d) quote_4
+--------------------------------------------------------------------------------*/
+
+.quote-04 {
+    max-height: 250px;
+    max-width: 540px;
+    background-color: #fef6f4; 
+    border: 5px solid #f0542c;
+    padding: 20px;
+    margin: -2em -4em;
+    box-shadow: 0 0 5px rgba(68, 68, 68, .6);
+}
+
+.quote-04 * {
+    color: #000;
+}
+
+.quote-04__text {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+
+.quote-04__text:before {
     content: '\F10D';
     font-family: 'FontAwesome';
     font-size: 25px;
