@@ -2416,7 +2416,22 @@ mark, .mark {
 
 /* 17. team 
 --------------------------------------------------------------------------------*/
+/*Modified Team Section*/
+.team-section-vertical-layout {
+    display: flex;
+    flex-direction: column;
+}
 
+.team-profile-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.team-body-text {
+    margin: 3em;
+}
+
+/*Original Team Section*/
 .team {
     margin-bottom: 30px;
     overflow: hidden;
