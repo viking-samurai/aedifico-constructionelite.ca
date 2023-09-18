@@ -549,7 +549,7 @@ mark, .mark {
     display: none;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 693px) {
     .about img {
         display: block;
     }
@@ -1576,6 +1576,33 @@ mark, .mark {
 }
 
 
+@media (max-width: 693px) {
+    .quote-01 {
+        max-width: 300px;
+        background-color: #f0542c;border: 5px solid #fff;
+        padding: 20px;
+        margin: 0;
+        box-shadow: 0 0 5px rgba(68, 68, 68, .6);
+    }
+    
+    .quote-01 * {
+        color: #fff;
+    }
+    
+    .quote-01__text {
+        font-family: "Playfair Display", serif;
+        font-style: italic;
+    }
+    
+    .quote-01__text:before {
+        content: '\F10D';
+        font-family: 'FontAwesome';
+        font-size: 25px;
+        display: block;
+    }
+}
+
+
 /* 11. b) quote_02
 --------------------------------------------------------------------------------*/
 
@@ -1602,6 +1629,33 @@ mark, .mark {
     font-family: 'FontAwesome';
     font-size: 25px;
     display: block;
+}
+
+
+@media (max-width: 693px) {
+    .quote-02 {
+        max-width: 300px;
+        background-color: #f0542c;border: 5px solid #fff;
+        padding: 20px;
+        margin: 0;
+        box-shadow: 0 0 5px rgba(68, 68, 68, .6);
+    }
+    
+    .quote-02 * {
+        color: #fff;
+    }
+    
+    .quote-02__text {
+        font-family: "Playfair Display", serif;
+        font-style: italic;
+    }
+    
+    .quote-02__text:before {
+        content: '\F10D';
+        font-family: 'FontAwesome';
+        font-size: 25px;
+        display: block;
+    }
 }
 
 /* 11. c) quote_03
@@ -1633,6 +1687,33 @@ mark, .mark {
     display: block;
 }
 
+
+@media (max-width: 693px) {
+    .quote-03 {
+        max-width: 300px;
+        background-color: #f0542c;border: 5px solid #fff;
+        padding: 20px;
+        margin: 0;
+        box-shadow: 0 0 5px rgba(68, 68, 68, .6);
+    }
+    
+    .quote-03 * {
+        color: #fff;
+    }
+    
+    .quote-03__text {
+        font-family: "Playfair Display", serif;
+        font-style: italic;
+    }
+    
+    .quote-03__text:before {
+        content: '\F10D';
+        font-family: 'FontAwesome';
+        font-size: 25px;
+        display: block;
+    }
+}
+
 /* 11. d) quote_4
 --------------------------------------------------------------------------------*/
 
@@ -1660,6 +1741,33 @@ mark, .mark {
     font-family: 'FontAwesome';
     font-size: 25px;
     display: block;
+}
+
+
+@media (max-width: 693px) {
+    .quote-04 {
+        max-width: 300px;
+        background-color: #f0542c;border: 5px solid #fff;
+        padding: 20px;
+        margin: 0;
+        box-shadow: 0 0 5px rgba(68, 68, 68, .6);
+    }
+    
+    .quote-04 * {
+        color: #fff;
+    }
+    
+    .quote-04__text {
+        font-family: "Playfair Display", serif;
+        font-style: italic;
+    }
+    
+    .quote-04__text:before {
+        content: '\F10D';
+        font-family: 'FontAwesome';
+        font-size: 25px;
+        display: block;
+    }
 }
 
 
