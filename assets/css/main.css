@@ -2427,8 +2427,34 @@ mark, .mark {
     flex-direction: row;
 }
 
+.team-image-div {
+    display: flex;
+    flex-direction: row;
+    min-width: 12em;
+    margin: 0 3em;
+}
+
 .team-body-text {
-    margin: 3em;
+    margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+    .team-profile-row {
+        flex-direction: column;
+    }
+
+    .team-image-div {
+        display: flex;
+        flex-direction: column;
+        max-width: 12em;
+        margin: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .team-image-div {
+        margin: auto;
+    }
 }
 
 /*Original Team Section*/
