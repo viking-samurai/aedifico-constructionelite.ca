@@ -1692,7 +1692,7 @@ mark, .mark {
 }
 
 
-@media (max-width: 693px) {
+@media (max-width: 1200px) {
     .quote-03 {
         max-width: 300px;
         background-color: #f0542c;
