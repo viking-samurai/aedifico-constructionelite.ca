@@ -3880,7 +3880,40 @@ mark, .mark {
     margin-right:-15px
 }
 
+.stub-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.stub-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2em;
+}
+
 @media (max-width: 768px) {
+    .row-reverse {
+        flex-direction: column-reverse;
+    }
+    
+    .row-reverse-plus {
+        flex-direction: column;
+    }
+
+    .stub-row {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .stub-image {
+        justify-content: flex-start;
+        margin: 0;
+        height: 14em;
+    }
+}
+
+@media (max-width: 1200px) {
     .row-reverse {
         flex-direction: column-reverse;
     }
