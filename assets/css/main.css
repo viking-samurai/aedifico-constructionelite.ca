@@ -3880,7 +3880,7 @@ mark, .mark {
     margin-right:-15px
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
     .row-reverse {
         flex-direction: column-reverse;
     }
