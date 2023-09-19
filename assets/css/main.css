@@ -1636,7 +1636,7 @@ mark, .mark {
 
 @media (max-width: 1200px) {
     .quote-02 {
-        max-height: 300px;
+        height: 300px;
         max-width: 540px;
         background-color: #fef6f4; 
         border: 5px solid #f0542c;
@@ -1694,8 +1694,8 @@ mark, .mark {
 
 @media (max-width: 1200px) {
     .quote-03 {
-        height: 380px;
-        min-width: 380px;
+        height: 350px;
+        min-width: 350px;
         background-color: #f0542c;
         border: 5px solid #fff;
         padding: 20px;
@@ -3873,9 +3873,20 @@ mark, .mark {
     margin-right:-15px
 }
 
+.row-reverse-plus {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left:-15px;
+    margin-right:-15px
+}
+
 @media (max-width: 1200px) {
     .row-reverse {
         flex-direction: column-reverse;
+    }
+    
+    .row-reverse-plus {
+        flex-direction: column;
     }
 }
 
