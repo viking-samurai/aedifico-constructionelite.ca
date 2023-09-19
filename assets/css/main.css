@@ -1575,13 +1575,13 @@ mark, .mark {
     display: block;
 }
 
-
-@media (max-width: 693px) {
+@media (max-width: 1200px) {
     .quote-01 {
         max-width: 300px;
-        background-color: #f0542c;border: 5px solid #fff;
+        background-color: #f0542c;
+        border: 5px solid #fff;
         padding: 20px;
-        margin: 0;
+        margin: -1em auto;
         box-shadow: 0 0 5px rgba(68, 68, 68, .6);
     }
     
@@ -1606,17 +1606,19 @@ mark, .mark {
 /* 11. b) quote_02
 --------------------------------------------------------------------------------*/
 
+
 .quote-02 {
-    max-width: 300px;
-    background-color: #f0542c;
-    border: 5px solid #fff;
+    max-height: 250px;
+    max-width: 540px;
+    background-color: #fef6f4; 
+    border: 5px solid #f0542c;
     padding: 20px;
-    margin: 0;
+    margin: -2em -4em;
     box-shadow: 0 0 5px rgba(68, 68, 68, .6);
 }
 
 .quote-02 * {
-    color: #fff;
+    color: #000;
 }
 
 .quote-02__text {
@@ -1632,17 +1634,19 @@ mark, .mark {
 }
 
 
-@media (max-width: 693px) {
+@media (max-width: 1200px) {
     .quote-02 {
-        max-width: 300px;
-        background-color: #f0542c;border: 5px solid #fff;
+        max-height: 300px;
+        max-width: 540px;
+        background-color: #fef6f4; 
+        border: 5px solid #f0542c;
         padding: 20px;
         margin: 0;
         box-shadow: 0 0 5px rgba(68, 68, 68, .6);
     }
     
     .quote-02 * {
-        color: #fff;
+        color: #000;
     }
     
     .quote-02__text {
@@ -1691,7 +1695,8 @@ mark, .mark {
 @media (max-width: 693px) {
     .quote-03 {
         max-width: 300px;
-        background-color: #f0542c;border: 5px solid #fff;
+        background-color: #f0542c;
+        border: 5px solid #fff;
         padding: 20px;
         margin: 0;
         box-shadow: 0 0 5px rgba(68, 68, 68, .6);
@@ -1718,17 +1723,16 @@ mark, .mark {
 --------------------------------------------------------------------------------*/
 
 .quote-04 {
-    max-height: 250px;
-    max-width: 540px;
-    background-color: #fef6f4; 
-    border: 5px solid #f0542c;
+    max-width: 300px;
+    background-color: #f0542c;
+    border: 5px solid #fff;
     padding: 20px;
-    margin: -2em -4em;
+    margin: 0;
     box-shadow: 0 0 5px rgba(68, 68, 68, .6);
 }
 
 .quote-04 * {
-    color: #000;
+    color: #fff;
 }
 
 .quote-04__text {
@@ -1743,11 +1747,11 @@ mark, .mark {
     display: block;
 }
 
-
 @media (max-width: 693px) {
     .quote-04 {
         max-width: 300px;
-        background-color: #f0542c;border: 5px solid #fff;
+        background-color: #f0542c;
+        border: 5px solid #fff;
         padding: 20px;
         margin: 0;
         box-shadow: 0 0 5px rgba(68, 68, 68, .6);
