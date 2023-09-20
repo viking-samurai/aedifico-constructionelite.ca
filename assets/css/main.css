@@ -1691,7 +1691,6 @@ mark, .mark {
 
 @media (max-width: 1200px) {
     .quote-03 {
-        width: 350px;
         background-color: #f0542c;
         border: 5px solid #fff;
         padding: 20px;
