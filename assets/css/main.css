@@ -1608,7 +1608,7 @@ mark, .mark {
 
 
 .quote-02 {
-    max-height: 250px;
+    height: 250px;
     max-width: 540px;
     background-color: #fef6f4; 
     border: 5px solid #f0542c;
@@ -1666,7 +1666,7 @@ mark, .mark {
 --------------------------------------------------------------------------------*/
 
 .quote-03 {
-    max-height: 280px;
+    height: 280px;
     max-width: 400px;
     background-color: #f0542c;
     border: 5px solid #fff;
