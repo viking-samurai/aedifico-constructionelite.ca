@@ -1577,7 +1577,6 @@ mark, .mark {
 
 @media (max-width: 1200px) {
     .quote-01 {
-        max-width: 300px;
         background-color: #f0542c;
         border: 5px solid #fff;
         padding: 20px;
@@ -1636,8 +1635,6 @@ mark, .mark {
 
 @media (max-width: 1200px) {
     .quote-02 {
-        height: 300px;
-        max-width: 540px;
         background-color: #fef6f4; 
         border: 5px solid #f0542c;
         padding: 20px;
@@ -1694,8 +1691,6 @@ mark, .mark {
 
 @media (max-width: 1200px) {
     .quote-03 {
-        height: 350px;
-        min-width: 350px;
         background-color: #f0542c;
         border: 5px solid #fff;
         padding: 20px;
