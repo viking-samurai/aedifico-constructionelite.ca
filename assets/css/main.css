@@ -475,6 +475,14 @@ mark, .mark {
 /* 3. button
 --------------------------------------------------------------------------------*/
 
+.btn-right-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 0;
+}
+
 .btn {
     color: #fff;
     text-align: center;
