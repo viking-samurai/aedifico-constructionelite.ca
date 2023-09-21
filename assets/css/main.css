@@ -545,7 +545,7 @@ mark, .mark {
 /* 4. about
 --------------------------------------------------------------------------------*/
 .about-section-list {
-    list-style: circle;
+    list-style-type: disc;
 }
 
 .about {
@@ -1879,6 +1879,10 @@ mark, .mark {
 
 /* 14. services
 --------------------------------------------------------------------------------*/
+
+.services-list {
+    margin: 2em;
+}
 
 .services {
     margin-bottom: 40px;
