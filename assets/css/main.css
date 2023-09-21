@@ -1880,8 +1880,8 @@ mark, .mark {
 /* 14. services
 --------------------------------------------------------------------------------*/
 
-.services-list {
-    margin: 2em;
+.services-section-list {
+    list-style-type: disc;
 }
 
 .services {
