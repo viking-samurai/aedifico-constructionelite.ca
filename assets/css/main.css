@@ -1676,7 +1676,7 @@ mark, .mark {
 .quote-03 {
     max-width: 400px;
     background-color: #f0542c;
-    border: 1px solid #000;
+    border: 1px solid #222;
     padding: 20px;
     margin: 0;
     box-shadow: 0 0 5px rgba(68, 68, 68, .6);
@@ -1702,7 +1702,7 @@ mark, .mark {
 @media (max-width: 1200px) {
     .quote-03 {
         background-color: #f0542c;
-        border: 5px solid #000;
+        border: 1px solid #222;
         padding: 20px;
         margin: 0;
         box-shadow: 0 0 5px rgba(68, 68, 68, .6);
