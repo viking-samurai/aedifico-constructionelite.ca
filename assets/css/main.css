@@ -546,6 +546,7 @@ mark, .mark {
 --------------------------------------------------------------------------------*/
 .about-section-list {
     list-style-type: disc;
+    margin-left: 2em;
 }
 
 .about {
@@ -1882,6 +1883,7 @@ mark, .mark {
 
 .services-section-list {
     list-style-type: disc;
+    margin-left: 2em;
 }
 
 .services {
