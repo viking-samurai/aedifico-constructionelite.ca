@@ -3261,7 +3261,7 @@ mark, .mark {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #222;
+    background-color: #1f2022;
     z-index: 999;
 }
 
@@ -3402,7 +3402,7 @@ mark, .mark {
 
 .search-btn {
     color: #fff;
-    background-color: #f0542c;
+    background-color: #a01617;
 }
 
 .header-menu__toggle {
@@ -3677,7 +3677,7 @@ mark, .mark {
     right: 0;
     width: 0;
     height: 2px;
-    background-color: #f0542c;
+    background-color: #a01617;
     margin: 0 auto;
     visibility: hidden;
     opacity: 0;
@@ -3691,7 +3691,7 @@ mark, .mark {
 }
 
 .raising-nav li.current a {
-    color: #f0542c;
+    color: #a01617;
 }
 
 .raising-menu.active ~ .navbar-toggle span:nth-child(1) {
@@ -3756,11 +3756,11 @@ mark, .mark {
     line-height: 50px;
     font-size: 20px;
     text-align: center;
-    background-color: rgba(240, 84, 44, .6);
+    background-color: rgba(280, 0, 44, .6);
 }
 
 .hero .swiper-button-custom > div:hover {
-    background-color: #f0542c;
+    background-color: #a01617;
     color: #fff;
 }
 
