@@ -502,11 +502,11 @@ mark, .mark {
 }
 
 .btn-primary {
-    background-color: #f0542c;
+    background-color: #a01617;
 }
 
 .btn-primary:hover {
-    background-color: #da390f;
+    background-color: #C84D4E;
 }
 
 .btn-danger {
@@ -691,11 +691,26 @@ mark, .mark {
 --------------------------------------------------------------------------------*/
 
 .cta-02 {
-    background-color: #6D6462;
+    background-color: #a01617;
     padding: 20px 0;
 }
 
 .cta-02__title {
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.cta-02-a {
+    background-color: #6D6462;
+    padding: 20px 0;
+}
+
+.cta-02-a__title {
     font-family: "Playfair Display", serif;
     font-size: 16px;
     color: #fff;
@@ -788,7 +803,7 @@ mark, .mark {
 }
 
 .gallery__overlay {
-    background-color: rgba(240, 84, 44, .8);
+    background-color: rgba(240, 0, 64, 0.8);
     width: 0;
     right: 0;
     bottom: 0;
@@ -1621,7 +1636,7 @@ mark, .mark {
 .quote-02 {
     max-width: 500px;
     background-color: #fef6f4; 
-    border: 5px solid #f0542c;
+    border: 5px solid #a01617;
     padding: 20px;
     margin: -2em -4em;
     box-shadow: 0 0 5px rgba(68, 68, 68, .6);
@@ -1647,7 +1662,7 @@ mark, .mark {
 @media (max-width: 1200px) {
     .quote-02 {
         background-color: #fef6f4; 
-        border: 5px solid #f0542c;
+        border: 5px solid #a01617;
         padding: 20px;
         margin: 0;
         box-shadow: 0 0 5px rgba(68, 68, 68, .6);
@@ -1675,7 +1690,7 @@ mark, .mark {
 
 .quote-03 {
     max-width: 400px;
-    background-color: #f0542c;
+    background-color: #a01617;
     border: 1px solid #222;
     padding: 20px;
     margin: 0;
@@ -1701,7 +1716,7 @@ mark, .mark {
 
 @media (max-width: 1200px) {
     .quote-03 {
-        background-color: #f0542c;
+        background-color: #a01617;
         border: 1px solid #222;
         padding: 20px;
         margin: 0;
@@ -1730,7 +1745,7 @@ mark, .mark {
 
 .quote-04 {
     max-width: 300px;
-    background-color: #f0542c;
+    background-color: #a01617;
     border: 5px solid #fff;
     padding: 20px;
     margin: 0;
@@ -1756,7 +1771,7 @@ mark, .mark {
 @media (max-width: 693px) {
     .quote-04 {
         max-width: 300px;
-        background-color: #f0542c;
+        background-color: #a01617;
         border: 5px solid #fff;
         padding: 20px;
         margin: 0;
@@ -2683,14 +2698,14 @@ mark, .mark {
 }
 
 .sec-title__title span {
-    color: #f0542c;
+    color: #a01617;
 }
 
 .sec-title__divider {
     display: block;
     width: 40px;
     height: 2px;
-    background-color: #f0542c;
+    background-color: #a01617;
 }
 
 .sec-title__lg-title .sec-title__title {
@@ -2745,7 +2760,7 @@ mark, .mark {
 
 .widget-contact__title {
     text-transform: capitalize;
-    color: #f0542c;
+    color: #a01617;
 }
 
 .widget-contact__text {
@@ -3756,7 +3771,7 @@ mark, .mark {
     line-height: 50px;
     font-size: 20px;
     text-align: center;
-    background-color: rgba(280, 0, 44, .6);
+    background-color: rgba(240, 0, 64, 0.8);
 }
 
 .hero .swiper-button-custom > div:hover {
