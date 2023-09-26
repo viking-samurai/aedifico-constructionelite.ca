@@ -506,7 +506,7 @@ mark, .mark {
 }
 
 .btn-primary:hover {
-    background-color: #C84D4E;
+    background-color: #ae4242;
 }
 
 .btn-danger {
@@ -2926,12 +2926,12 @@ mark, .mark {
 
 .widget-list-02 li a:hover {
     color: #fff;
-    background-color: #f0542c;
+    background-color: #a01617;
 }
 
 .widget-list-02 li.current a {
     color: #fff;
-    background-color: #f0542c;
+    background-color: #a01617;
 }
 
 .widget-list-02__submenu li a {
@@ -3482,7 +3482,7 @@ mark, .mark {
     }
 
     .raising-nav li:hover > a {
-        color: #f0542c;
+        color: #a01617;
     }
 
     .raising-nav .raising-menu .sub-menu {
