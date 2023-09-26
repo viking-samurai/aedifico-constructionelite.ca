@@ -1896,6 +1896,10 @@ mark, .mark {
 /* 14. services
 --------------------------------------------------------------------------------*/
 
+.services-page-nav-border {
+    border-bottom: solid #a01617 2px;
+}
+
 .services-section-list {
     list-style-type: disc;
     margin-left: 2em;
