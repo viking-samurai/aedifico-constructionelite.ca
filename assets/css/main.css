@@ -3710,7 +3710,7 @@ mark, .mark {
 }
 
 .raising-nav li.current a {
-    color: #a01617;
+    color: #828282;
 }
 
 .raising-menu.active ~ .navbar-toggle span:nth-child(1) {
