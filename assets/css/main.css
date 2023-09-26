@@ -261,7 +261,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #f0542c;
+    color: #a01617;
 }
 
 a:focus {
@@ -270,12 +270,12 @@ a:focus {
 
 ::-moz-selection {
     color: #fff;
-    background-color: #f0542c;
+    background-color: #a01617;
 }
 
 ::selection {
     color: #fff;
-    background-color: #f0542c;
+    background-color: #a01617;
 }
 
 .md-section {
@@ -358,7 +358,7 @@ textarea:-ms-input-placeholder, select:-ms-input-placeholder {
 
 input:not([type="button"]):not([type="submit"]):not([type="radio"]):not([type="checkbox"]):not([type="color"]):focus,
 textarea:focus, select:focus {
-    border-color: #f0542c;
+    border-color: #a01617;
 }
 
 input:not([type="button"]):not([type="submit"]):not([type="radio"]):not([type="checkbox"]):not([type="color"])[disabled],
@@ -1579,7 +1579,7 @@ mark, .mark {
 
 .quote-01 {
     max-width: 300px;
-    background-color: #f0542c;
+    background-color: #a01617;
     border: 5px solid #fff;
     padding: 20px;
     margin: 0;
@@ -1604,7 +1604,7 @@ mark, .mark {
 
 @media (max-width: 1200px) {
     .quote-01 {
-        background-color: #f0542c;
+        background-color: #a01617;
         border: 5px solid #fff;
         padding: 20px;
         margin: -1em auto;
@@ -1826,7 +1826,7 @@ mark, .mark {
 }
 
 .quote__style-02 {
-    border-left: 2px solid #f0542c;
+    border-left: 2px solid #a01617;
     background-color: transparent;
     padding: 0 10px;
 }
@@ -1914,7 +1914,7 @@ mark, .mark {
 }
 
 .services__title:hover {
-    color: #f0542c;
+    color: #a01617;
 }
 
 .services__img {
@@ -2520,7 +2520,7 @@ mark, .mark {
     border-radius: 50%;
     background-color: #222;
     margin: 5px;
-    background-color: #f0542c;
+    background-color: #a01617;
     color: #fff;
 }
 
@@ -2945,7 +2945,7 @@ mark, .mark {
     left: 10px;
     width: 30px;
     height: 1px;
-    background-color: #f0542c;
+    background-color: #a01617;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
 }
@@ -2974,7 +2974,7 @@ mark, .mark {
     left: 0;
     top: 50%;
     font-family: 'FontAwesome';
-    color: #f0542c;
+    color: #a01617;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
 }
@@ -3039,7 +3039,7 @@ mark, .mark {
 }
 
 .widget-post__title:hover {
-    color: #f0542c;
+    color: #a01617;
 }
 
 .widget-post__date {
@@ -3087,7 +3087,7 @@ mark, .mark {
 }
 
 .widget-product__title:hover {
-    color: #f0542c;
+    color: #a01617;
 }
 
 .widget-product__price {
@@ -3148,8 +3148,8 @@ mark, .mark {
 }
 
 .widget-tag a:hover {
-    background-color: #f0542c;
-    border-color: #f0542c;
+    background-color: #a01617;
+    border-color: #a01617;
     color: #fff;
 }
 
@@ -3175,13 +3175,13 @@ mark, .mark {
 }
 
 .widget-twitter__title:hover {
-    color: #f0542c;
+    color: #a01617;
 }
 
 .widget-twitter__sub a {
     display: block;
     font-size: 13px;
-    color: #f0542c;
+    color: #a01617;
 }
 
 .widget-twitter__sub a:hover {
@@ -3321,7 +3321,7 @@ mark, .mark {
 }
 
 .searchbar__addon {
-    color: #f0542c;
+    color: #a01617;
     background-color: transparent;
     border: 0;
     padding: 6px 12px;
@@ -4210,7 +4210,7 @@ ol, ul {
 }
 
 .swiper-pagination-custom .swiper-pagination-bullet-active {
-    background-color: #f0542c;
+    background-color: #a01617;
 }
 
 .swiper-fix-padding {
