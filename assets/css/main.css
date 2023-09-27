@@ -495,6 +495,7 @@ mark, .mark {
 
 .btn:hover {
     color: #f1f1f1;
+    background-color: #ab4242;
 }
 
 .btn-outline {
@@ -506,7 +507,7 @@ mark, .mark {
 }
 
 .btn-primary:hover {
-    background-color: #ae4242;
+    background-color: #ab4242;
 }
 
 .btn-danger {
@@ -1895,6 +1896,10 @@ mark, .mark {
 
 /* 14. services
 --------------------------------------------------------------------------------*/
+
+.services-page-nav-border {
+    border-bottom: solid #a01617 2px;
+}
 
 .services-section-list {
     list-style-type: disc;
@@ -3706,7 +3711,7 @@ mark, .mark {
 }
 
 .raising-nav li.current a {
-    color: #a01617;
+    color: #828282;
 }
 
 .raising-menu.active ~ .navbar-toggle span:nth-child(1) {
